@@ -10,7 +10,9 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
+    "prestart": "yarn install",
     "start": "react-scripts start",
+    "prebuild": "yarn install --production",
     "build": "react-scripts build",
     "test": "react-scripts test --watchAll=false",
     "eject": "react-scripts eject"
